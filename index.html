@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Free, private, offline tools for work and productivity. No server, no tracking, no account — just open and use.">
+<meta name="keywords" content="free tools, offline tools, resume checker, text grouper, privacy, no tracking, job search, productivity">
+<meta name="author" content="Andrew">
+<meta property="og:title" content="Free Tools by Andrew">
+<meta property="og:description" content="Free, private, offline tools for work and productivity. No server, no tracking, no account.">
+<meta property="og:type" content="website">
+<title>Free Tools by Andrew — Offline, Private, No Tracking</title>
+<style>
+:root{--bg:#0b0e13;--panel:#141922;--line:#232a36;--txt:#e6edf3;--muted:#7d8ba1;--accent:#4dd0a7;--accent2:#58a6ff;--warn:#e3b341;--bad:#f85149;}
+*{box-sizing:border-box;}
+body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);}
+header{padding:40px 24px 20px;text-align:center;border-bottom:1px solid var(--line);}
+header h1{margin:0;font-size:28px;font-weight:700;}
+header p{color:var(--muted);font-size:15px;margin:12px 0 0;max-width:600px;margin-left:auto;margin-right:auto;}
+.hero{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:16px;}
+.hero span{padding:4px 10px;border:1px solid var(--line);border-radius:20px;font-size:12px;color:var(--muted);}
+.wrap{max-width:960px;margin:0 auto;padding:30px 24px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px;transition:transform .15s,border-color .15s;}
+.card:hover{transform:translateY(-2px);border-color:var(--accent);}
+.card h2{margin:0 0 6px;font-size:18px;}
+.card .tag{display:inline-block;padding:2px 8px;background:rgba(77,208,167,.12);color:var(--accent);border-radius:4px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;}
+.card p{color:var(--muted);font-size:14px;margin:0 0 16px;}
+.card .links{display:flex;gap:10px;flex-wrap:wrap;}
+.card a{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:6px;text-decoration:none;font-weight:600;font-size:13px;transition:transform .15s;}
+.card a:hover{transform:scale(1.05);}
+.card .demo{background:var(--accent);color:#04241a;}
+.card .source{background:transparent;color:var(--accent2);border:1px solid var(--accent2);}
+.tip-section{max-width:960px;margin:0 auto;padding:0 24px 30px;text-align:center;}
+.tip-box{display:inline-block;background:var(--panel);border:1px solid var(--accent);border-radius:10px;padding:16px 24px;margin-top:10px;}
+.tip-box a{color:var(--accent2);font-weight:600;}
+.cta{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:12px;}
+.cta a{display:inline-flex;align-items:center;gap:6px;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;font-size:14px;transition:transform .15s;}
+.cta a:hover{transform:scale(1.05);}
+.cta .kofi{background:#ff5e5b;color:#fff;}
+.cta .paypal{background:#003087;color:#fff;}
+.stats{max-width:960px;margin:0 auto;padding:0 24px 20px;display:flex;gap:20px;justify-content:center;flex-wrap:wrap;}
+.stat{text-align:center;padding:16px 24px;background:var(--panel);border:1px solid var(--line);border-radius:10px;min-width:120px;}
+.stat .num{font-size:24px;font-weight:700;color:var(--accent);}
+.stat .lbl{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-top:4px;}
+.about{max-width:700px;margin:0 auto;padding:20px 24px 40px;text-align:center;color:var(--muted);font-size:14px;}
+.about a{color:var(--accent2);}
+footer{padding:20px 24px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:13px;}
+</style>
+</head>
+<body>
+<header>
+  <h1>Free Tools by Andrew</h1>
+  <p>Offline, private, no-account tools for work and productivity. Open-source, MIT-licensed, free forever.</p>
+  <div class="hero">
+    <span>No server</span>
+    <span>No tracking</span>
+    <span>No account</span>
+    <span>100% offline</span>
+    <span>Open source</span>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="grid">
+    <div class="card">
+      <span class="tag">New</span>
+      <h2>JobFit — Resume Gap Checker</h2>
+      <p>Paste your resume + a job description, get your match score and the exact keywords you're missing. Helps you tailor your resume so it actually passes the 7-second recruiter scan.</p>
+      <div class="links">
+        <a href="https://andrwspt.github.io/jobfit/" target="_blank" rel="noopener" class="demo">Try it →</a>
+        <a href="https://github.com/andrwspt/jobfit" target="_blank" rel="noopener" class="source">Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="tag">Productivity</span>
+      <h2>TopicSplit — Semantic Text Grouper</h2>
+      <p>Splits any pasted text into topic segments by lexical cohesion — not by arbitrary word count. Perfect for breaking down transcripts, articles, or meeting notes into clean markdown for Obsidian or Logseq.</p>
+      <div class="links">
+        <a href="https://andrwspt.github.io/topicsplit/" target="_blank" rel="noopener" class="demo">Try it →</a>
+        <a href="https://github.com/andrwspt/topicsplit" target="_blank" rel="noopener" class="source">Source</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="stat">
+    <div class="num">2</div>
+    <div class="lbl">Tools</div>
+  </div>
+  <div class="stat">
+    <div class="num">100%</div>
+    <div class="lbl">Free</div>
+  </div>
+  <div class="stat">
+    <div class="num">0</div>
+    <div class="lbl">Tracking</div>
+  </div>
+</div>
+
+<div class="tip-section">
+  <div class="tip-box">
+    <div style="margin-bottom:8px;">If these tools save you time, a $1 tip keeps the next one coming:</div>
+    <div class="cta">
+      <a href="https://ko-fi.com/andrwspt" target="_blank" rel="noopener" class="kofi">☕ Ko-fi</a>
+      <a href="https://paypal.me/andrwspt" target="_blank" rel="noopener" class="paypal">💳 PayPal</a>
+    </div>
+  </div>
+</div>
+
+<div class="about">
+  <p>Built by Andrew. All tools run entirely in your browser — no server, no tracking, no account. Your data never leaves your device. Want a tool for a specific problem? <a href="https://github.com/andrwspt">Open an issue</a> or <a href="https://ko-fi.com/andrwspt">send a request via Ko-fi</a>.</p>
+</div>
+
+<footer>
+  © 2026 Andrew · MIT License · <a href="https://github.com/andrwspt" style="color:var(--accent2);">GitHub</a> · <a href="https://ko-fi.com/andrwspt" style="color:#ff5e5b;">Ko-fi</a>
+</footer>
+</body>
+</html>
